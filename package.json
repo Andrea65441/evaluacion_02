@@ -1,0 +1,22 @@
+{
+  "name": "campuescloud-api",
+  "version": "1.0.0",
+  "description": "API REST PARA LA INTEGRACION DE SERVICIOS DE DATOS DE CAMPUSCLOUD",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">22.14.0"
+  },
+  "author": "Andrea Razo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongodb": "^7.9.0"
+  }
+}
